@@ -11,4 +11,4 @@ Ejemplo de uso:
 ```
 
 
-useCounter() // Recibe un valor por defecto
+useCounter(url) // 'endpoint de una api'

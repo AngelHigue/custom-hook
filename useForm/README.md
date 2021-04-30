@@ -1,5 +1,19 @@
 
 
-# Notas
+# useForm Hook
 
-Custom hooks React JS
+
+Ejemplo de uso:
+
+```
+   const initialState = {
+       name: '',
+       age: 0,
+       email: '',
+       ...
+   }
+   const  [values, handleInputChange, reset] = useForm(initialState)
+```
+
+
+useForm(initialState) // Valores por defecto para los campos
